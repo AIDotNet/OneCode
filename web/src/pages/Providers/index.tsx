@@ -172,6 +172,14 @@ const providerPresets: ProviderPreset[] = [
     homepage: 'https://platform.openai.com',
   },
   {
+    id: 'atlascloud',
+    name: 'Atlas Cloud',
+    icon: '/icon/atlascloud.svg',
+    baseUrl: 'https://api.atlascloud.ai/v1',
+    homepage: 'https://www.atlascloud.ai/console/api-keys',
+    description: 'Atlas Cloud（OpenAI 兼容 LLM 端点）',
+  },
+  {
     id: 'gemini',
     name: 'Gemini',
     icon: '/icon/gemini.svg',
